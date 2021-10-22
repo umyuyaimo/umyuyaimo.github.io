@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raja Ampat | Travel Guide and Diving Courses</title>
+    <link rel="stylesheet" href="./stylesheet.css"> 
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li class="active"><a href="#"></a>Tours</li>
+            <li class="active"><a href="#"></a>Explore</li>
+            <li class="active"><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Sign Up</li>
+        </ul>
+        <img src="images/menu1.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Wonderful Indonesia</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL ISLAND</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- == Events-->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/snorkeling1.jpg">
+                <h4>Diving with Childern</h4>
+                <p>We are a multi-award winning PADI scuba diving school offering a variety of friendly, professional and affordable PADI scuba diving courses in London, Hertfordshire, Brighton, Surrey, Berkshire, Kent, Gloucestershire and Oxfordshire.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src ="images/snorkeling2.jpg">
+                <h4>Beginner</h4>
+                <p>Diving is a great activity for children to get involved in, as well as having fun, adventure and adrenaline, they learn about topics such as the environment, physics, biology and geography. Why not start your child on their underwater adventures – it could change their lives!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE  SEA WORLD</h1>
+            <div class="line"></div>
+            <p>The first step on the professional ladder is the Divemaster course. This teaches you to become a dive guide and once completed allows you to teach ReActivate and Skin Diver courses. The course can be completed as quickly or slowly as you like depending on your circumstances.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Once you’ve become a PADI Divemaster then you can now learn to become a PADI Open Water Scuba Diving Instructor, or an Assistant Instructor. Our courses are run over several weekends so don’t need to interfere with your day to day life. As a PADI Instructor you get the opportunity to teach diving around the world.</p>
+                <p>The PADI Open Water Diver course is the world’s most popular and recognised scuba diving certification. It has introduced millions of people from around the world to the adventurous diving lifestyle. Once qualified as an open water diver you will have a life-long open water certification that enables you to dive around the world to a maximum depth of 18m. Please read below how we deliver the UK’s best open water courses at our PADI 5-star Instructor Development Centre.</p>
+                <p>If you would like to see how the online learning works and how easy it is then simply sign up today. We will then send you your unique code for you to have a go at the first open water section. See how easy, fun and interesting it is.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="images/diver1.jpg" alt="">
+                    <img src="images/coral 2.jpg" alt="">
+                    <img src="images/coral1.jpg" alt="">
+                    <img src="images/diver2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>This is the official website of the Ministry of Tourism, Republic of Indonesia. The contents listed on this website are intended for informational purposes rather than commercial. Any displayed sale is meant as a token of partnership and will always redirect you to our partners' sites.</p>
+        <p>Copyright 2020 Raja Ampat Adventure</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
